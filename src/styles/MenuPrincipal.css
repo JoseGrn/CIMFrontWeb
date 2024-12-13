@@ -1,0 +1,91 @@
+/* src/styles/MenuPrincipal.css */
+
+.menu-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f8ff;
+    color: #333;
+    position: relative;
+  }
+  
+  .menu-container h1 {
+    color: #005f73;
+    margin-bottom: 30px;
+  }
+  
+  .section {
+    margin: 30px 0;
+  }
+  
+  .section h2 {
+    color: #0a9396;
+  }
+  
+  /* Estilos para el contenedor de tarjetas */
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 70%; /* Limitar el ancho del contenedor */
+    margin: 0 auto;   /* Centrar el contenedor en la página */
+  }
+  
+  /* Estilos para las tarjetas de productos y combos */
+  .product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 230px; /* Reducir el ancho de las tarjetas */
+    text-align: left;
+    transition: transform 0.2s;
+  }
+  
+  .product-card h3 {
+    margin: 0 0 10px;
+    color: #0a9396;
+  }
+  
+  .product-card p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Estilos para los botones alineados verticalmente a la derecha */
+  .button-container {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .menu-button {
+    background-color: #0a9396;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .menu-button:hover {
+    background-color: #94d2bd;
+  }
+  
+  .error-message {
+    color: #d62828;
+    font-size: 1.1rem;
+    margin: 20px 0;
+  }
+  
