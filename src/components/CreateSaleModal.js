@@ -156,6 +156,8 @@ const CreateSaleModal = ({ open, onClose, onSaleCreated, availableProducts = [],
           title: 'Error',
           text: data.message || 'Error al crear la venta',
         });
+        onSaleCreated();
+        onClose();
       }
     } catch (err) {
       Swal.fire({
